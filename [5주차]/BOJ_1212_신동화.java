@@ -20,7 +20,7 @@ public class BOJ_1212 {
 						target -= sn;
 					}
 					else {
-						if(i != 0 || result.length() != 0)
+						if(result.length() != 0)
 							result.append('0');					
 					}
 					sn /= 2;
